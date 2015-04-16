@@ -7,5 +7,6 @@ define('DB_USERNAME', 'root');
 define('DB_PASSWORD', 'root');
 define('DB_DATABASE', 'test');
 define('DB_DRIVER', 'mysql');
+define('DB_DSN', '');
 
 define('KEY', 'C0d3igNi+Er3.0.o-st4B1E');
