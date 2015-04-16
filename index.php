@@ -1,4 +1,4 @@
-<?php
+<?php include 'config.php';
 /**
  * CodeIgniter
  *
@@ -53,7 +53,11 @@
  *
  * NOTE: If you change these, also change the error_reporting() code below
  */
+ if (defined('DEBUG') && DEBUG === true) {
+ 	define('ENVIRONMENT', 'development');
+ } else {
 	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+ }
 
 /*
  *---------------------------------------------------------------
