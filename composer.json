@@ -6,9 +6,6 @@
 		"php": ">=5.2.4",
 		"twig/twig": "1.18.0"
 	},
-	"require-dev": {
-		"mikey179/vfsStream": "1.1.*"
-	},
 	"config": {
 		"vendor-dir": "application/vendor"
 	}
